@@ -1,0 +1,26 @@
+{
+	  "defaultEnv": "QA",
+	  
+	  "environments": {
+	    "QA": {
+		  "browserName" : "chrome",
+	      "baseUrl": "https://www.amazon.in/",
+	      "username": "testvelo93@gmail.com",
+	      "password": "Tester@102030"
+	    },
+		
+		"Stage": {
+		  "browserName" : "chrome",
+		  "baseUrl": "https://www.stage-amazon.in/",
+		  "username": "testvelo93@gmail.com",
+		  "password": "Tester@102030"
+		},
+		
+		"Prod": {
+		  "browserName" : "chrome",
+		  "baseUrl": "https://www.amazon.in/",
+		  "username": "testvelo93@gmail.com",
+		  "password": "Tester@102030"
+		}
+	 }
+}

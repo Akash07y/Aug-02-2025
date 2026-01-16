@@ -37,4 +37,9 @@ public class CareersPage {
 		wait.until(ExpectedConditions.elementToBeClickable(this.viewOpenJobsBtn.get(2)));
 		this.viewOpenJobsBtn.get(2).click();
 	}
+	
+	public void testmethod() {
+		wait.until(ExpectedConditions.elementToBeClickable(this.viewOpenJobsBtn.get(2)));
+		this.viewOpenJobsBtn.get(2).click();
+	}
 }

@@ -39,7 +39,10 @@ public class CareersPage {
 	}
 	
 	public void testmethod() {
-		wait.until(ExpectedConditions.elementToBeClickable(this.viewOpenJobsBtn.get(2)));
+		System.out.println("Hello");
+		wait.until(ExpectedConditions.elementToBeClickable(this.viewOpenJobsBtn.get(12)));
+		
+		System.out.println("Hello");
 		this.viewOpenJobsBtn.get(2).click();
 	}
 }

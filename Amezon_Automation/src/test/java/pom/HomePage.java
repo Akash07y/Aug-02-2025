@@ -76,7 +76,7 @@ public class HomePage {
 		}
 		catch(Exception e)
 		{
-			System.err.println("Failed to click on account and list");
+			System.err.println("Failed to click on account and list D");
 			e.printStackTrace();
 		}
 	}

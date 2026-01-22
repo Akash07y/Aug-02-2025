@@ -79,6 +79,7 @@ public class HomePage {
 			System.out.println("Failed to click on account and list A");
 			System.out.println("Failed to click on account and list B");
 			System.out.println("Failed to click on account and list C");
+			System.err.println("Failed to click on account and list D");
 			e.printStackTrace();
 		}
 	}

@@ -78,4 +78,9 @@ public class LoginPage {
 	public String getErrorMEssage() {
 		return this.errorMesage.getText();
 	}
+	
+	public String getErrorMEssageTest() {
+		System.out.println("Verify error message");
+		return this.errorMesage.getText();
+	}
 }

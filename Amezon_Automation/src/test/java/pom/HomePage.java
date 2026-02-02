@@ -47,7 +47,7 @@ public class HomePage {
 		
 		// driver_3 = driver_1 = new ChromeDriver();
 		this.driver = driver;
-		wait = new WebDriverWait(driver, Duration.ofMillis(60000));
+		wait = new WebDriverWait(driver, Duration.ofMillis(10000));
 	}
 
 	public void enterSearchData(String key) {

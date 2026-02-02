@@ -16,7 +16,7 @@ public class DriverFactory {
 	public static WebDriver driver ;
 	public static EnvironmentConfig envConfig ; 
 	
-	public void setup() {
+	public static void setup() {
 		envConfig = ConfigReader.getActiveEnironment();
 		
 		if( envConfig.getBrowserName().equals("chrome") )
@@ -37,13 +37,17 @@ public class DriverFactory {
 		}
 		
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(10000));
+		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
 		
 		System.out.println("Url : " + envConfig.getBaseUrl());
 		driver.get(envConfig.getBaseUrl());
 	}
 	
-	public void tearDown() {
+    public static WebDriver getDriver() {
+        return driver;
+    }
+    
+	public static void tearDown() {
 		if(driver != null)
 		{
 			driver.quit();

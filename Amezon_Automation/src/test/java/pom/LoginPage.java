@@ -48,7 +48,7 @@ public class LoginPage {
 		
 		PageFactory.initElements(driver, this);
 		this.driver = driver ;
-		wait = new WebDriverWait(driver, Duration.ofMillis(60000));
+		wait = new WebDriverWait(driver, Duration.ofMillis(10000));
 	}
 	
 	public void sendUsername(String email) {

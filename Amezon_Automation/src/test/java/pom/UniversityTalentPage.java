@@ -41,7 +41,7 @@ public class UniversityTalentPage {
 	
 	public UniversityTalentPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
-		wait = new WebDriverWait(driver, Duration.ofMillis(60000));
+		wait = new WebDriverWait(driver, Duration.ofMillis(10000));
 	}
 	
 	public String selectCountry(String country) {

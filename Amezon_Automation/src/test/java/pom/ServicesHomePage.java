@@ -39,7 +39,7 @@ public class ServicesHomePage {
 	public ServicesHomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		this.driver = driver ;
-		wait = new WebDriverWait(driver, Duration.ofMillis(60000));
+		wait = new WebDriverWait(driver, Duration.ofMillis(10000));
 	}
 	
 	public String selectFilterCheckbox(String checkBoxOption) {

@@ -11,10 +11,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class CareersPage {
+class public  CareersPage {
 
 	@FindBy (xpath = "//a[text()='View open jobs']")
 	private List<WebElement> viewOpenJobsBtn ; 
+	
+	@FindBy (css = "div[input='test']")
+	private WebElement signInButton;
 	
 	private Wait<WebDriver> wait ;
 	

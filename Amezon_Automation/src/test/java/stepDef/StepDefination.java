@@ -30,14 +30,14 @@ public class StepDefination extends DriverFactory {
 	@Given("User logged in to allpication")
 	public void login() throws InterruptedException {
 		// login 
-//		homePage = new HomePage(driver);
-//		homePage.clickOnSignInButton();
-//		
-//		loginPage = new LoginPage(driver);
-//		loginPage.sendUsername(envConfig.getUsername());
-//		loginPage.clickOnContinueButton();
-//		loginPage.sendPassword(envConfig.getUsername());
-//		loginPage.clickOnContinueButton();	
+		homePage = new HomePage(driver);
+		homePage.clickOnSignInButton();
+		
+		loginPage = new LoginPage(driver);
+		loginPage.sendUsername(envConfig.getUsername());
+		loginPage.clickOnContinueButton();
+		loginPage.sendPassword(envConfig.getUsername());
+		loginPage.clickOnContinueButton();	
 	}
 	
 	//@Step("User click on Careers option")

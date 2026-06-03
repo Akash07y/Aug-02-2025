@@ -10,6 +10,7 @@ import io.cucumber.testng.CucumberOptions;
                 "pretty",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         }
+        //tags="@sanity"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
     // No constructor or extra code needed
